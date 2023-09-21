@@ -18,11 +18,7 @@ int main()
     int i;
     int human1 = human;
     for (i = 0; i < human; i++) {//循环输入起点和终点
-        int x, y, z;
-        scanf_s("%d %d %d", &x, &y, &z);
-        begin[i] = x;
-        end[i] = y;
-        time[i] = z;
+        scanf_s("%d %d %d", &begin[i], &end[i], &time[i]);
     }
     int* aim1 = (int*)malloc(sizeof(int) * human);
     int* aim2 = (int*)malloc(sizeof(int) * human);
