@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
+//该程序考虑了方向，但是未考虑两个电梯的情况
 int main()
 {
     int num1;
